@@ -8,7 +8,7 @@ echo rm apache-tomcat-7.0.32/webapps/globo
 rm -r apache-tomcat-7.0.32/webapps/globo
 
 echo gerando o war da aplicação
-cd globo../apache-maven-3.0.4/bin/mvn package
+cd globo
 ../apache-maven-3.0.4/bin/mvn package
 echo copiando o war para o tomcat
 mv target/globo.war ../apache-tomcat-7.0.32/webapps/
