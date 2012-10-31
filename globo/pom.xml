@@ -25,6 +25,7 @@
       	<version>2.3</version>
       </plugin>
     </plugins>
+
 	<resources>
 		<resource>
 			<directory>resource</directory>
