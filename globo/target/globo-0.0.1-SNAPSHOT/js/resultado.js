@@ -1,4 +1,4 @@
-var wsURL = "http://localhost:8080/bbb/rest/votacao/resultado";
+var wsURL = "http://localhost:8080/globo/rest/votacao/resultado";
 recuperarPercentual();
 function recuperarPercentual() {
 	console.log('recuperarPercentual');
